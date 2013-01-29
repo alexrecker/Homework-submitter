@@ -13,7 +13,7 @@ Great.  Now I'm going to create a typescript to record the assignment in.
 Once you see the promt again,
 just enter the command 'record' to launch your program."
 
-script
+alias record="~/bin/.typescriptmaker.sh" script
 
 address="homework.cs235@my.wheaton.edu"
 
