@@ -31,7 +31,7 @@ To: $address
 Subject: $subject
 Contents: <typescript>
 
-Press Return to send it. ; read P
+Press Return to send it. "; read P
 sleep 1; echo "Sending..."; sleep 1;
 mail -s $subject $address <typescript
 sleep 1; clear; 
