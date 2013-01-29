@@ -11,9 +11,9 @@ Current directory: $(pwd)
 Project Name: " ; read subject; sleep 1; echo "
 Great.  Now I'm going to create a typescript to record the assignment in.
 Once you see the promt again,
-just enter the command 'record' to launch your program.
+just enter the command RECORD to launch your program.
 
-This will run your program.  When it finishes, type EXIT"
+This will run your program.  When it finishes, type EXIT
 
 Press RETURN to create a typescript."; read me
 
