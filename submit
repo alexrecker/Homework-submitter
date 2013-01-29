@@ -13,9 +13,10 @@ Great.  Now I'm going to create a typescript to record the assignment in.
 Once you see the promt again,
 just enter the command 'record' to launch your program."
 
-script
+subject=$subject script
 
 address="homework.cs235@my.wheaton.edu"
+#address="arecker41@gmail.com"
 
 clear; echo 'Alrighty.  Now you are going to review the submission in nano.
 If you do not change anything, just press CTRL+X to get out.
