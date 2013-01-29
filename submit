@@ -1,14 +1,16 @@
 clear; echo -n "~ HOMEWORK SUBMITTER ~
-Hey there.  Ready to submit homework?  Make sure you are in the project directory.
+Hey there.  Ready to submit homework?
+Make sure you are in the project directory.
 If you are not, please suspend this script with 'CTRL+C'.
 
-If you are in the right directory, go ahead and type the name of the project (case sensitive -
+If you are in the right directory, go ahead and type the 
+name of the project (case sensitive -
 as if you were running 'java PROJECT').
 
 Current directory: $(pwd)
 Project Same: " ; read subject; sleep 1; echo "
-Great.  Now I'm going to create a typescript to record the assignment in.  This will run 
-the java program you made.
+Great.  Now I'm going to create a typescript to record the assignment in.
+This will run the java program you made.
 
 Press RETURN to create the submission file" ; read return
 
@@ -16,11 +18,11 @@ subject=$subject script -c "bash -x ~/bin/.typescriptmaker.sh"
 
 address="homework.cs235@my.wheaton.edu"
 
-clear; echo "Alrighty.  Now you are going to review the submission in nano.
-If you don't change anything, just press 'CTRL+X' to get out.
-If you do change something, press 'CTRL+X' then 'Y'.
+clear; echo 'Alrighty.  Now you are going to review the submission in nano.
+If you don't change anything, just press CTRL+X to get out.
+If you do change something, press CTRL+X then Y.
 
-Press RETURN to review the typescript." read keys
+Press RETURN to review the typescript.'; read keys
 nano ./typescript
 clear; echo "Glad you are happy with your project.  Time to send it in.
 Please review the info.
