@@ -3,7 +3,7 @@
 # dumps the assignment into it interactively.  It should be placed in ~/bin
 
 echo "Name: $(whoami)
-Project: $(subject)
+Project: $subject
 $(date)
 
 Project Directory: $(ls -l)
