@@ -8,7 +8,7 @@ name of the project (case sensitive -
 as if you were running 'java PROJECT').
 
 Current directory: $(pwd)
-Project Same: " ; read subject; sleep 1; echo "
+Project Name: " ; read subject; sleep 1; echo "
 Great.  Now I'm going to create a typescript to record the assignment in.
 This will run the java program you made.
 
