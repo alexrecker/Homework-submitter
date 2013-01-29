@@ -19,10 +19,10 @@ subject=$subject script -c "bash -x ~/bin/.typescriptmaker.sh"
 address="homework.cs235@my.wheaton.edu"
 
 clear; echo 'Alrighty.  Now you are going to review the submission in nano.
-If you don't change anything, just press CTRL+X to get out.
-If you do change something, press CTRL+X then Y.
-
-Press RETURN to review the typescript.'; read keys
+If you do not change anything, just press CTRL+X to get out.
+If you do change something, press CTRL+X then Y.'
+echo "
+Press RETURN to review the typescript."; read keys
 nano ./typescript
 clear; echo "Glad you are happy with your project.  Time to send it in.
 Please review the info.
@@ -31,7 +31,7 @@ To: $address
 Subject: $subject
 Contents: <typescript>
 
-Press Return to send it. "; read P
+Press RETURN to send it. "; read P
 sleep 1; echo "Sending..."; sleep 1;
 mail -s $subject $address <typescript
 sleep 1; clear; 
